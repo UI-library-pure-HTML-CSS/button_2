@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    background-color: rgb(246, 236, 177);
+}
+
+.btn{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(48, 123, 194);
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn:hover .lett1{
+    display: inline-block;
+    animation: wave 0.5s ease-in-out 0s both;
+}
+
+.btn:hover .lett2{
+    display: inline-block;
+    animation: wave 0.5s  ease-in-out 0.1s both;
+}
+
+.btn:hover .lett3{
+    display: inline-block;
+    animation: wave 0.5s  ease-in-out 0.2s both;
+}
+
+.btn:hover .lett4{
+    display: inline-block;
+    animation: wave 0.5s  ease-in-out 0.3s both;
+}
+
+.btn:hover .lett5{
+    display: inline-block;
+    animation: wave 0.5s  ease-in-out 0.4s both;
+}
+
+
+@keyframes wave {
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
